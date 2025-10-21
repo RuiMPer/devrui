@@ -1,6 +1,4 @@
-
-@import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
 
 /* Para um scroll suave ao clicar nos links da navbar */
 html {
@@ -9,6 +7,6 @@ html {
 
 /* Estilo base (Dark mode) */
 body {
-  /* @apply bg-gray-900 text-gray-100; */
+  @apply bg-gray-900 text-gray-100;
 
 }
