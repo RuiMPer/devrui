@@ -1,0 +1,62 @@
+{
+  "MAINPAGE": {
+    "NAVBAR": {
+      "brand": "Rui Pereira",
+      "about": "Sobre",
+      "projects": "Projetos",
+      "skills": "Competências",
+      "contact": "Contacto"
+    },
+    "HERO": {
+      "title": "Olá, eu sou Rui Pereira",
+      "description": "Developer Front-End focado em criar experiências web modernas e responsivas com React, Next.js e Tailwind CSS.",
+      "viewProjects": "Ver Projetos",
+      "contact": "Contactar"
+    },
+    "ABOUT": {
+      "title": "Sobre Mim",
+      "p1": "Sou um developer front-end apaixonado por tecnologia e design. Com 4 anos de experiência, especializo-me em transformar ideias em interfaces de utilizador intuitivas e de alta performance.",
+      "p2": "O meu foco principal é o ecossistema React, utilizando Next.js para server-side rendering e TypeScript para garantir um código robusto e escalável.",
+      "p3": "Estou sempre a aprender, a explorar novas ferramentas e a procurar desafios que me permitam crescer profissionalmente.",
+      "downloadCV": "Download CV"
+    },
+    "SKILLS": {
+      "title": "Competências",
+      "list": [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Git",
+        "Figma"
+      ]
+    },
+    "PROJECTS": {
+      "title": "Projetos",
+      "comingSoon": "Brevemente...",
+      "project1": {
+        "title": "Projeto E‑commerce",
+        "description": "Uma plataforma de e‑commerce completa construída com Next.js, Stripe e Tailwind.",
+        "tags": ["Next.js", "TypeScript", "Stripe", "Tailwind"]
+      },
+      "project2": {
+        "title": "Dashboard de Análise",
+        "description": "Um dashboard interativo para visualização de dados, usando React e Recharts.",
+        "tags": ["React", "TypeScript", "Recharts"]
+      }
+    },
+    "CONTACT": {
+      "title": "Vamos Conversar!",
+      "description": "Estou aberto a novas oportunidades e colaborações. Sentete à vontade para entrar em contacto.",
+      "emailButton": "Enviar Email",
+      "ariaGithub": "GitHub",
+      "ariaLinkedin": "LinkedIn"
+    },
+    "FOOTER": {
+      "copyright": "© {year} Rui Pereira. Todos os direitos reservados.",
+      "builtWith": "Construído com Next.js, TypeScript e Tailwind CSS."
+    }
+  }
+}
