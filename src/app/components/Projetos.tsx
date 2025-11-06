@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import { FiExternalLink, FiGithub  } from "react-icons/fi";
+import { useTranslation } from "./LanguageProvider";
 
 // Define o tipo para os adereços (props) do Cartão de Projeto
 interface ProjectCardProps {
@@ -92,11 +95,13 @@ const Projetos = () => {
     },
   ];
 
+  const { t } = useTranslation();
+
   return (
     <section id="projetos" className="py-20 bg-gray-800">
       <div className="container mx-auto max-w-6xl px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Projetos</h2>
-        <p className="text-center">Brevemente...</p>
+        <h2 className="text-3xl font-bold text-center mb-12">{t("MAINPAGE.PROJECTS.title", "Projetos")}</h2>
+        <p className="text-center">{t("MAINPAGE.PROJECTS.comingSoon", "Brevemente ...")}</p>
         {/* Projetos
         <div className="grid md:grid-cols-2 gap-8">
           
